@@ -1,0 +1,130 @@
+[
+  {
+    "id": 1,
+    "name": "Standart Dark",
+    "price": 120,
+    "category": "dark",
+    "image": "img2.png",
+    "desc": "milk,coffee,water,sugar"
+  },
+  {
+    "id": 2,
+    "name": "Latte without sugar",
+    "price": 120,
+    "category": "latte",
+    "image": "img3.webp",
+    "desc": "milk,coffee,water"
+  },
+  {
+    "id": 3,
+    "name": "Dark Latte",
+    "price": 120,
+    "category": "dark",
+    "image": "img4.jpg",
+    "desc": "dark coffee,water,sugar"
+  },
+  {
+    "id": 4,
+    "name": "Coffee (cream)",
+    "price": 120,
+    "category": "cream",
+    "image": "img6.png",
+    "desc": "milk,coffee,cream,water,sugar"
+  },
+  {
+    "id": 5,
+    "name": "Dark coffee (cream)",
+    "price": 120,
+    "category": "dark",
+    "image": "img7.webp",
+    "desc": "cream,dark coffee,milk,coffee,water,sugar"
+  },
+  {
+    "id": 6,
+    "name": "Latte (caramel and 2xSugar)",
+    "price": 120,
+    "category": "latte",
+    "image": "img8.png",
+    "desc": "milk,coffee,water,2xsugar,caramel"
+  },
+  {
+    "id": 7,
+    "name": "Coffee (2xMilk)",
+    "price": 120,
+    "category": "standart",
+    "image": "img9.webp",
+    "desc": "coffee,water,sugar,2x milk"
+  },
+  {
+    "id": 8,
+    "name": "Light coffee",
+    "price": 120,
+    "category": "standart",
+    "image": "img5.png",
+    "desc": "milk,light coffee,water,sugar"
+  },
+  {
+    "id": 9,
+    "name": "Dark",
+    "price": 120,
+    "category": "dark",
+    "image": "img2.png",
+    "desc": "milk,2x dark coffee,water,sugar"
+  },
+  {
+    "id": 10,
+    "name": "Coffe (zero sugar)",
+    "price": 120,
+    "category": "zero",
+    "image": "img3.webp",
+    "desc": "milk,coffee,water,zero sugar"
+  },
+  {
+    "id": 11,
+    "name": "Coffe(zero sugar)",
+    "price": 120,
+    "category": "cream",
+    "image": "img4.jpg",
+    "desc": "milk,light coffee,water,zero sugar"
+  },
+  {
+    "id": 12,
+    "name": "Coffe(0.1ml milk)",
+    "price": 120,
+    "category": "standart",
+    "image": "img6.png",
+    "desc": "0.1ml milk,coffee,water,sugar"
+  },
+  {
+    "id": 13,
+    "name": "Coffe(0.3ml milk)",
+    "price": 120,
+    "category": "standart",
+    "image": "img7.webp",
+    "desc": "0.3ml milk,coffee,sugar"
+  },
+  {
+    "id": 14,
+    "name": "Dark coffee",
+    "price": 120,
+    "category": "dark",
+    "image": "img8.png",
+    "desc": "milk,dark chocolate,water,sugar"
+  },
+  {
+    "id": 15,
+    "name": "Dark coffee (chocolate)",
+    "price": 120,
+    "category": "dark",
+    "image": "img9.webp",
+    "desc": "milk,dark chocolate,coffee,water,sugar"
+  },
+  {
+    "id": 16,
+    "name": "Coffee (2x milk)",
+    "price": 120,
+    "category": "standart",
+    "image": "img5.png",
+    "desc": "2x milk,coffee,water,sugar"
+  }
+]
