@@ -8,9 +8,10 @@ interface IData {
   image: string;
   desc: string;
 }
+type TNoteType = "add" | "remove" | "success" | "reset";
 type TNote = {
   id: number;
-  type: "add" | "remove" | "success" | "reset";
+  type: TNoteType;
   text: string;
 };
 interface IDataContext {
@@ -23,11 +24,15 @@ interface IDataContext {
   note: TNote[];
   setNote: React.Dispatch<React.SetStateAction<TNote[]>>;
 
-  addToast: (text: string, type?: TNote["type"]) => void;
+  addToast: (text: string, type: TNote["type"]) => void;
 }
 
 export const DataContext = createContext<IDataContext | null>(null);
 
 export const useData = () => {
-  return useContext(DataContext);
+  const context = useContext(DataContext);
+  if (!context) {
+    throw new Error("useData must be used inside DataProvider");
+  }
+  return context;
 };

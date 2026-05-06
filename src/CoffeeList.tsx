@@ -12,7 +12,7 @@ interface IData {
 
 export default function CoffeeList() {
   const context = useData();
-
+  const { allData, added, setAdded, addToast } = context;
   const [search, setSearch] = useState("");
   const [category, setCategory] = useState("all");
 
@@ -21,10 +21,6 @@ export default function CoffeeList() {
 
     return ["all", ...new Set(context.allData.map((item) => item.category))];
   }, [context?.allData]);
-
-  if (!context) return null;
-
-  const { allData, added, setAdded, addToast } = context;
 
   const listData: IData[] = allData.filter((item) => {
     const matchCategory = category === "all" || item.category === category;

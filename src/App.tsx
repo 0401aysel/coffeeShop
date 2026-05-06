@@ -12,10 +12,11 @@ interface IData {
   image: string;
   desc: string;
 }
+type TNoteType = "add" | "remove" | "success" | "reset";
 
 type TNote = {
   id: number;
-  type: "add" | "remove" | "success" | "reset";
+  type: TNoteType;
   text: string;
 };
 
@@ -24,7 +25,7 @@ function App() {
   const [added, setAdded] = useState<number[]>([]);
   const [note, setNote] = useState<TNote[]>([]);
 
-  const addToast = (text: string, type: TNote["type"]) => {
+  const addToast = (text: string, type: TNoteType) => {
     const id = Date.now();
 
     setNote((prev) => [...prev, { id, text, type }]);

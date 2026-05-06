@@ -5,8 +5,6 @@ export default function Cart() {
   const context = useData();
   const [takeType, setTakeType] = useState("Dine in");
   const [table, setTable] = useState<number | null>(null);
-
-  if (!context) return null;
   const { allData, added, setAdded, addToast } = context;
 
   const cartProducts = useMemo(() => {
